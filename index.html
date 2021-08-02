@@ -4,15 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ========== CSS ========== -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- ========== FONT AWESOME ========== -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+    <!-- ========== GOOGLE FONTS - ROBOTO 400 ========== -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
     <title>Amazing Graph</title>
 </head>
 <body>
-    <header>
+    <header id="header">
         <div id="logo">
             <h1>DevChallenge</h1>
         </div>
-        <nav class="navbar">
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+        <nav class="navbar-desktop">
             <ul>
                 <li>Home</li>
                 <li>Features</li>
@@ -20,15 +32,21 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <div class="container-direito">
-            <h1>Creating Amazing graphics</h1>
-            <h2>Colaborate and create beautiful graphics with your team</h2>
-            <input type="button" value="Start Now">
-        </div>
+    <section id="section-1">
         <div class="imagem">
-            <img src="assets/team.jpg" alt="">
+            <img src="assets/team.jpg" alt="tedste">
         </div>
-    </main>
+        <div class="container-content">
+            <div class="title">
+                <h1>Create Amazing graphics</h1>
+            </div>
+            <div class="subtitle">
+                <h2>Colaborate and create beautiful graphics with your team</h2>
+            </div>
+            <button id="start">
+                <span>Start now</span>
+            </button>
+        </div>
+    </section>
 </body>
 </html>
