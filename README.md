@@ -6,4 +6,4 @@
 
 Designed and created by  <a href="https://github.com/Lorenalgm">Lorena</a> :)
 
-  <a href:"https://juliocesarj.github.io/DevChallenge-Amazing-Graphics/">Clique aqui para visualizar o projeto.</a>
+  <a href:"https://juliocesarj.github.io/DevChallenge-Amazing-Graphics/"> Clique aqui para visualizar o projeto. </a>
